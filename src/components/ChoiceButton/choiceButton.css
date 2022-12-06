@@ -1,0 +1,15 @@
+.options {
+     max-width: 30vh;
+     display: block;
+     padding: 10px 0 0 0;
+}
+
+.optionButton {
+     width: fit-content;
+     background-color: #2861B6;
+     color: white;
+     padding: 10px;
+     border-radius: 30px;
+     text-align: start;
+     border: 7px solid #6999E1;
+}

@@ -1,0 +1,118 @@
+.chatBox {
+     width: 45vh;
+     margin-right: 1rem;
+     display: block;
+}
+
+.chatHidden {
+     display: none;
+}
+
+.divider {
+     height: 1px;
+     background-color: white;
+}
+
+.nameDisplay {
+     height: 10%;
+     width: 100%;
+     background-color: #6999E1;
+     padding-left: 1rem;
+     font-size: 1.5rem;
+     border-radius: 1rem 1rem 0 0;
+     color: white;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     position: relative;
+}
+
+.closeButton {
+     font-size: 30px;
+     margin-left: 37%;
+     color: red;
+     position: absolute;
+     right: 10px;
+}
+.closeButton:hover {
+     background-color: white;
+     border-radius: 20px;
+     cursor: pointer;
+}
+
+.chatBoxWrapper {
+     height: 90%;
+     background-color: gainsboro;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     position: relative;
+     padding-right: 2px;
+}
+
+.chatBoxTop {
+     height: 88%;
+     padding: 5px;
+     padding-left: 15px;
+     overflow-y: auto;
+}
+
+.chatBoxTop::-webkit-scrollbar {
+     width: 5px;
+}
+/* Handle */
+.chatBoxTop::-webkit-scrollbar-thumb {
+     background: rgb(190, 190, 190); 
+     border-radius: 10px;
+}
+/* Handle on hover */
+.chatBoxTop::-webkit-scrollbar-thumb:hover {
+     background: rgb(150, 150, 150); 
+}
+
+.startConversation {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 20px;
+}
+
+.botLogo {
+     height: 50px;
+     width: 50px;
+     border-radius: 50px;
+}
+
+.preface {
+     text-align: center;
+     color: #999999;
+}
+
+.chatBoxBottom {
+     height: 12%;
+     width: 100%;
+     background-color: gainsboro;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding-right: 7px;
+     padding-left: 7px;
+}
+
+.chatInput {
+     width: 85%;
+     height: 30px;
+     border-radius: 50px;
+     padding: 13px;
+     background-color: #BDBDBD;
+}
+
+.chatSubmitButton {
+     width: 7%;
+     color: #6999E1;
+     font-size: 30px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     transform: rotate(45deg);
+}
